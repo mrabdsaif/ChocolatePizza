@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
@@ -30,7 +29,7 @@
             <li><img src="img/pint-icon.png" alt=""></li>
         </ul>
 
-        <hr>
+        <hr class="hr1">
     </header>
 
     <main>
@@ -97,23 +96,28 @@
                 </fieldset>
             </div>
         </div>
-        <hr>
+        <hr class="hr1">
     </main>
+
     <footer>
 
+        <img id="vanessa-stevenson" src="img/van-pic.png">
+
         <div id="footer1">
-            <img id="vanessa-stevenson" src="img/van-pic.png">
             <h3>Vanessa Stevenson</h3>
             <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-            <form>
-                <label for="shareRecipe">SHARE RECIPIE</label>
-                <input type="button" id="shareRecipe">
-            </form>
+        
         </div>
-        <img src="img/small-logo.png">
-        <p>Delicious © 2013 · All Rights Reserved.</p>
-        <p id="footer-line">Proudly published with Ghost.</p>
+        <input type="button" value="SHARE RECIPIE" id="shareRecipe">
+        <div id="footer2">
+           <hr id="hr0"> <img src="img/small-logo.png"><hr id="hr0">
+           <br>
+           <br>
+            <p>Delicious © 2013 · All Rights Reserved.</p>
+            <p id="footer-line">Proudly published with Ghost.</p>
+        </div>
     </footer>
+
 </body>
 
 </html>
